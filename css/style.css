@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    border-radius: 0%;
+    padding: 0px;
+
+}
+.firstpage{
+    width: 1530px;
+    height: 844px;
+    background: #3FC979;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.firstpageheader{
+    width: 1530px;
+    height: 150px;
+    display: flex;
+    
+}
+.firstpageheader .logo{
+    width: 450px;
+    height: 100%;
+    padding-left: 30px;
+
+}
+
+.firstpageheader .Navi {
+    background: #3FC979;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+    
+}
+
+.firstpageheader .Navi ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* width: 300px;*/
+    
+}
+
+.firstpageheader .Navi ul li {
+    background: #3FC979;
+    list-style-type: none;
+
+}
+
+
+.firstpageheader .Navi ul li .gita {
+    background: #3FC979;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: white;
+opacity: 0.9;
+justify-content: space-between;
+}
+
+.firstpageheader .Register {
+    
+    padding: 10px 10px;
+    border-radius: 25px;
+    height: 15%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 4%;
+    background: #DADADA;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+.firstpageheader .Register a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 155.02%;
+text-align: center;
+}
+.firstImage{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+height: 10%;
+color: white;
+}
+.getmeal {
+    height: 5%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 7%;
+    background: #DADADA;
+    border-radius: 30px;
+    margin-left: 35%;
+    list-style: none;
+    text-decoration: none;
+
+}
+.getmeal a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    list-style-type: none;
+}

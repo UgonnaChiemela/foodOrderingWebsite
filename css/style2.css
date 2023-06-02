@@ -1,0 +1,841 @@
+* {
+  margin: 0px;
+  border-radius: 0%;
+  padding: 0px;
+
+}
+
+.lineA {
+  margin: 0px 40px;
+}
+
+.line1 {
+  margin-bottom: -10px;
+}
+
+.line3 {
+  margin-top: -10px;
+}
+
+.text {
+  margin: 10px 40px;
+}
+
+.text1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.text2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 10px;
+}
+
+.firstbox {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 25px;
+
+}
+
+.firstbox img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid #C5C5C5;
+  border-radius: 8px;
+}
+
+.food1 {
+  margin: 40px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.firstfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.firstfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.firstfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.firstfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.firstfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.firstfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+
+
+.secondfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.secondfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.secondfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.secondfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.secondfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.secondfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.secondfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+.thirdfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.thirdfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thirdfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.thirdfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.thirdfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.thirdfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.thirdfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.thirdfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+.forthfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.forthfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forthfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.forthfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.forthfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.forthfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.forthfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.forthfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+.fifthfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.fifthfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifthfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.fifthfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.fifthfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.fifthfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.fifthfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.fifthfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+
+.sixthfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.sixthfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sixthfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.sixthfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.sixthfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.sixthfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.sixthfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.sixthfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+.food2 {
+  margin: 40px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s7thfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.s7thfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s7thfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.s7thfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.s7thfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.s7thfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.s7thfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.s7thfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+
+
+.s8thfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.s8thfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s8thfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.s8thfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.s8thfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.s8thfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.s8thfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.s8thfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+.s9thfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.s9thfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s9thfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.s9thfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.s9thfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.s9thfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.s9thfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.s9thfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+.s10thfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.s10thfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s10thfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.s10thfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.s10thfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.s10thfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.s10thfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.s10thfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+.s11thfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.s11thfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s11thfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.s11thfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.s11thfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.s11thfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.s11thfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.s11thfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+
+.s12thfood {
+  width: 162px;
+  height: 226px;
+  border: 1px solid #C5C5C5;
+  border-radius: 15px;
+}
+
+.s12thfood .signs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s12thfood .signs .dot {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.s12thfood .signs .like {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.s12thfood .spagh {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.s12thfood .indplus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.s12thfood .indplus .indtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.s12thfood .dollar {
+  width: 54px;
+  height: 19px;
+  left: 13px;
+  top: 202px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #3FC979;
+}
+
+.Register {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 235px;
+  height: 40px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background: #3FC979;
+  margin-left: 42.5%;
+
+
+}
+
+.Register a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 155.02%;
+  text-align: center;
+
+}

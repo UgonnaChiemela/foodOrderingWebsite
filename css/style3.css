@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    border-radius: 0%;
+    padding: 0px;
+
+}
+.icon1{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    background-image: url(../images/Rectangle\ 5.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  width: 1530px;
+height: 500px;
+}
